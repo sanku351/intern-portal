@@ -43,39 +43,43 @@ A full-stack intern management portal built with MongoDB, Express.js, React, and
 - npm or yarn package manager
 
 ### 1. Clone the Repository
-\`\`\`bash
+```
 git clone https://github.com/sanku351/intern-portal.git
 cd intern-portal
-\`\`\`
+```
 
 ### 2. Backend Setup
-\`\`\`bash
+```
 # Install backend dependencies
 npm install
+```
 
 # Create environment file
+```
 cp backend/.env
+```
 
 # Edit backend/.env with your MongoDB connection string
+```
 MONGODB_URI=mongodb://localhost:27017/intern-portal
 JWT_SECRET=your_super_secret_jwt_key_here
 PORT=5000
-\`\`\`
+```
 
 ### 3. Frontend Setup
-\`\`\`bash
 # Install frontend dependencies
+```
 npm install
-\`\`\`
+```
 
 ### 4. Database Setup
 Make sure MongoDB is running on your system:
 
 **For local MongoDB:**
-\`\`\`bash
 # Start MongoDB service
+```
 mongod
-\`\`\`
+```
 
 **For MongoDB Atlas:**
 - Create a cluster on MongoDB Atlas
@@ -85,18 +89,20 @@ mongod
 ### 5. Run the Application
 
 **Option 1: Run both frontend and backend together**
-\`\`\`bash
+```
 npm run dev
-\`\`\`
+```
 
 **Option 2: Run separately**
-\`\`\`bash
 # Terminal 1 - Backend
+```
 npm run dev
+```
 
 # Terminal 2 - Frontend
+```
 npm run dev
-\`\`\`
+```
 
 ### 6. Access the Application
 - Frontend: http://localhost:5173
@@ -121,7 +127,7 @@ For testing purposes, you can create a new account or use these demo credentials
 - \`GET /api/leaderboard\` - Get top 10 fundraisers
 
 ## 🗂️ Project Structure
-\`\`\`
+```
 intern-portal/
 ├── backend/
 │   ├── models/
@@ -149,7 +155,7 @@ intern-portal/
 │   └── public/
 │       └── index.html
 └── README.md
-\`\`\`
+```
 
 ## 🚀 Deployment Options
 
@@ -186,6 +192,3 @@ intern-portal/
 ## 📝 License
 
 This project is open source and available under the MIT License.
-
-**Happy Coding! 🎉**
-\`\`\`
