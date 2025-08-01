@@ -1,5 +1,6 @@
 # Ignore backend .env file
 /backend/.env
+/backend/node_modules
 
 # Node modules (backend & frontend)
 **/node_modules/
