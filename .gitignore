@@ -1,1 +1,16 @@
+# Ignore backend .env file
 /backend/.env
+
+# Node modules (backend & frontend)
+**/node_modules/
+
+# Build output
+**/dist/
+**/build/
+
+# OS and editor junk
+.DS_Store
+*.log
+
+# Optional: ignore any .env in any subfolder
+**/.env
